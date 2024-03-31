@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 @Service
-
 public class AdminServiceImpl implements AdminService{
     @Autowired
     AdminRepository adminRepository;
@@ -26,7 +25,6 @@ public class AdminServiceImpl implements AdminService{
     @Override
     public void supprimerAdmin(Long id) {
         adminRepository.deleteById(id);
-
     }
 
     @Override
