@@ -4,7 +4,6 @@ import com.terrain.reservationTerrain.entity.Admin;
 import com.terrain.reservationTerrain.repository.AdminRepository;
 import com.terrain.reservationTerrain.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.Meta;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
